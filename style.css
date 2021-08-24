@@ -73,10 +73,12 @@ form button {
   text-align: center;
   font-style: italic;
   font-weight: bold;
-  line-height: 2px;
+  line-height:18px;
   color: rgb(66, 182, 202);
   text-shadow: 1px 1px 1px silver;
 }
+
+
 
 #input::placeholder {
   text-transform: capitalize;
