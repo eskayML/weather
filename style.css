@@ -12,13 +12,13 @@ body {
 }
 
 .container {
-  width: 250px;
+  width: 275px;
   height: 100px;
   margin: 0 auto;
   padding: 7px 0 14px 6px;
   background-color: white;
   margin-top: 10%;
-  box-shadow: 1px 1px 5px silver;
+  box-shadow: 1px 1px 5px #222;
 }
 
 form input {
@@ -48,7 +48,7 @@ form button {
   display: none;
   background-color: rgb(59, 84, 153);
   border-radius: 10px;
-  box-shadow: 4px 4px 7px silver, inset 4px 4px 6px rgb(54, 54, 167);
+  box-shadow: 4px 4px 7px #222, inset 4px 4px 6px rgb(54, 54, 167);
 }
 
 .output .each {
