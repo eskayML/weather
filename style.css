@@ -1,0 +1,98 @@
+@font-face {
+  font-family: product-sans;
+  src: url("ps.ttf");
+}
+
+* {
+  font-family: product-sans;
+}
+
+body {
+  background: black url("weather.png") no-repeat 200px 200px;
+}
+
+.container {
+  width: 250px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 7px 0 14px 6px;
+  background-color: white;
+  margin-top: 10%;
+  box-shadow: 1px 1px 5px silver;
+}
+
+form input {
+  height: 25px;
+  border: 2px solid rgba(42, 172, 195, 0.74);
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+input:focus {
+  border: 2px solid rgba(42, 172, 195, 0.74);
+}
+
+form button {
+  padding: auto;
+  color: white;
+  background-color: hsla(81, 74%, 48%, 0.89);
+  height: 30px;
+  border-radius: 5px;
+}
+
+.output {
+  width: 250px;
+  height: 300px;
+  margin: 0 auto;
+  color: rgb(241, 234, 234);
+  display: none;
+  background-color: rgb(59, 84, 153);
+  border-radius: 10px;
+  box-shadow: 4px 4px 7px silver, inset 4px 4px 6px rgb(54, 54, 167);
+}
+
+.output .each {
+  margin-left: 20px;
+  margin-top: 20px;
+  line-height: normal;
+}
+
+.each h4 {
+  text-transform: uppercase;
+  padding-top: 9px;
+}
+
+.each p {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 2px;
+  color: rgb(66, 182, 202);
+  text-shadow: 1px 1px 1px silver;
+}
+
+#input::placeholder {
+  text-transform: capitalize;
+  color: slategrey;
+}
+
+#icon {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+#catch-block {
+  color: black;
+  font-weight: bolder;
+  font-size: 15px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;;
+  margin: 0 auto;
+  width: 250px;
+  height: 70px;
+  margin-top: 100px;
+  background-color:#efefee;
+  border: 1px solid rgb(223, 68, 68) ;
+}

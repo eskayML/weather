@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!--
+        planning to move this app to be hosted on github pages or on netlify
+    -->
+    <div class="container">
+        <h3 id="heading">
+            
+        </h3>
+
+        <form>
+            <input type="text" placeholder="enter a city name..." id="input" >
+            <button type="submit" id="submit-btn">Search</button>
+        </form>
+
+    </div>
+
+    <div class="output">
+        <div class="each">
+            <h4>city</h4>
+            <p>Lagos</p>
+        </div>
+        <div class="each">
+            <h4>temperature</h4>
+            <p>22 <sup>o</sup>C</p>
+        </div>
+        <div class="each">
+            <h4>description</h4>
+            <p style="color: white; text-shadow: none; font-weight: normal; font-style: normal;">chilly moist and  a little bit wet</p>
+        </div>
+        <img src="" alt="can't load icon!"  id="icon">
+    </div>
+    <div id="catch-block">
+        Oops! cannot find the weather for the requested city
+    </div>
+</body>
+</html>
